@@ -1,1 +1,1 @@
-worker: python3 urlShortnerBeta.py
+worker: python3 urlShortBeta.py
