@@ -13,7 +13,7 @@ from telebot.util import user_link
 #admin_id = 5249435830
 admin_id = [1944279581, 2069970688, 1365625365, 1433116770, 5249435830]
 
-connection = "mongodb+srv://BotSettings:19932021Abc@anonyboy.jievtvp.mongodb.net/?retryWrites=true&w=majority"
+connection = "<MONGODB URL>"
 client = MongoClient(connection)
 db = client.Neurals
 entity = db.BotSettings
@@ -29,7 +29,7 @@ buttons.add(group, channel, bug)
 
 no_token = pyshorteners.Shortener()
 
-bot = telebot.TeleBot("6609866055:AAF9iximtQlhpgG9RUo7G4SoQrdPQorcvgw",
+bot = telebot.TeleBot("<BOT API TOKEN>",
                       parse_mode="HTML",
                       disable_web_page_preview=True)
 
