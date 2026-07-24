@@ -150,7 +150,7 @@ def get_url(msg):
     link = msg.text.strip()
     linkpw = f"https://api.lnk.pw/1.0/public/lnk.pw/link?long={link}"
     bit = pyshorteners.Shortener(
-      api_key="38b6f0702be7bd7656ac1dab614c3598e6558344")
+      api_key="API_KEY")
     #bitl = bit.bitly.short(link)
     clckru = no_token.clckru.short(link)
     isg = no_token.isgd.short(link)
