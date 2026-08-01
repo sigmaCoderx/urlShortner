@@ -1,4 +1,4 @@
-#from keep_on import never_down
+
 import json
 import requests
 import pyshorteners
@@ -9,9 +9,9 @@ from telebot import telebot, TeleBot, types, custom_filters
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from telebot.util import user_link
 
-#never_down()
-#admin_id = 5249435830
-admin_id = [1944279581, 2069970688, 1365625365, 1433116770, 5249435830]
+#admin_id = 5249435830 
+# you can use a list of ids if you want your team to access the role based access of the bot
+admin_id = []
 
 connection = "<MONGODB URL>"
 client = MongoClient(connection)
